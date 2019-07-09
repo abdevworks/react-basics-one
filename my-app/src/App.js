@@ -1,11 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-export default './index.js';
+import React, { Component } from "react";
+import Table from './Table';
 
-class App extends React.Component {
-    render() {
-        return(
-            <div>Hello World</div>
-        );
-    }
+class App extends Component {
+  render() {
+    return (
+      <div className="container">
+        <Table />
+      </div>
+    );
+  }
 }
+
+
+
+export default App;
